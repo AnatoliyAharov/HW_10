@@ -1,0 +1,38 @@
+    1  git config --global user.name "AnatoliyAharov"
+    2  git config --global user.email "AnatoliyAharov@gmail.com"
+    3  git config --get user.name
+    4  git config --get user.email
+    5  git clone https://github.com/AnatoliyAharov/HW_10.git
+    6  cd HW_10/
+    7  touch text_ignore.txt
+    8  ls -l
+    9  vim .gitignore
+   10  git status
+   11  git add .
+   12  git add.
+   13  git add .
+   14  vim .gitignore
+   15  git add .
+   16  git status
+   17  git commit -m "Create Textignore & modif .gitignore"
+   18  touch main_test.txt
+   19  git add .
+   20  git commit -m "Create main test txt"
+   21  git status
+   22  git checkout -b develop
+   23  git branch 
+   24  vim develop_test.txt
+   25  ls -l
+   26  git add .
+   27  git commit -m "Create develop test"
+   28  vim develop_test.txt
+   29  ls  -l
+   30  vim develop_test.txt
+   31  git status
+   32  git add .
+   33  git commit -m "change develop test"
+   34  checkout main
+   35  git checkout main
+   36  git merge develop
+   37  git log
+   38  history > command_list.csv
